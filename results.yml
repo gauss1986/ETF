@@ -1,0 +1,53 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Lower bound: -inf
+  Upper bound: inf
+  Number of objectives: 1
+  Number of constraints: 67
+  Number of variables: 70
+  Sense: unknown
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Message: CBC 2.9.8 optimal, objective 6.43118493935767; 0 nodes, 0 iterations, 0.002 seconds
+  Termination condition: optimal
+  Id: 0
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 1
+  number of solutions displayed: 1
+- Gap: None
+  Status: optimal
+  Message: CBC 2.9.8 optimal, objective 6.43118493935767; 0 nodes, 0 iterations, 0.002 seconds
+  Objective:
+    cost:
+      Value: 6.43118493936
+  Variable:
+    x[3,4]:
+      Value: 1
+    x[6,1]:
+      Value: 1
+    x[6,2]:
+      Value: 1
+    x[6,3]:
+      Value: 1
+    x[6,5]:
+      Value: 1
+    x[9,6]:
+      Value: 1
+    y[3]:
+      Value: 1
+    y[6]:
+      Value: 1
+    y[9]:
+      Value: 1
+  Constraint: No values
