@@ -16,7 +16,7 @@ Problem:
 # ----------------------------------------------------------
 Solver: 
 - Status: ok
-  Message: CBC 2.9.8 optimal, objective 6.43118493935767; 0 nodes, 0 iterations, 0.002 seconds
+  Message: CBC 2.9.9 optimal, objective 6.43118493935767; 0 nodes, 0 iterations, 0.005 seconds
   Termination condition: optimal
   Id: 0
 # ----------------------------------------------------------
@@ -27,7 +27,7 @@ Solution:
   number of solutions displayed: 1
 - Gap: None
   Status: optimal
-  Message: CBC 2.9.8 optimal, objective 6.43118493935767; 0 nodes, 0 iterations, 0.002 seconds
+  Message: CBC 2.9.9 optimal, objective 6.43118493935767; 0 nodes, 0 iterations, 0.005 seconds
   Objective:
     cost:
       Value: 6.43118493936
