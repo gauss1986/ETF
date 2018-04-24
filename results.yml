@@ -16,7 +16,7 @@ Problem:
 # ----------------------------------------------------------
 Solver: 
 - Status: ok
-  Message: CBC 2.9.9 optimal, objective -1.33315387249114; 0 nodes, 0 iterations, 0.010999 seconds
+  Message: CBC 2.9.9 optimal, objective -0.000591744411119416; 0 nodes, 0 iterations, 0.006 seconds
   Termination condition: optimal
   Id: 0
 # ----------------------------------------------------------
@@ -27,37 +27,29 @@ Solution:
   number of solutions displayed: 1
 - Gap: None
   Status: optimal
-  Message: CBC 2.9.9 optimal, objective -1.33315387249114; 0 nodes, 0 iterations, 0.010999 seconds
+  Message: CBC 2.9.9 optimal, objective -0.000591744411119416; 0 nodes, 0 iterations, 0.006 seconds
   Objective:
     cost:
-      Value: -0.573392523619
+      Value: 9.28244905415e-05
   Variable:
     x[C_VUS]:
-      Value: 0.12987012987
-    x[C_XIC]:
-      Value: 0.12987012987
-    x[C_XSH]:
-      Value: 0.12987012987
+      Value: 0.198345454545
     x[C_ZFM]:
-      Value: 0.12987012987
+      Value: 0.198345454545
     x[IEFA]:
-      Value: 0.12987012987
+      Value: 0.198345454545
     x[IEMG]:
-      Value: 0.12987012987
+      Value: 0.198345454545
     x[VTI]:
-      Value: 0.12987012987
+      Value: 0.198345454545
     xb[C_VUS]:
-      Value: 0.12987012987
-    xb[C_XIC]:
-      Value: 0.12987012987
-    xb[C_XSH]:
-      Value: 0.12987012987
+      Value: 0.0165454545455
     xb[C_ZFM]:
-      Value: 0.12987012987
+      Value: 0.0165454545455
     xb[IEFA]:
-      Value: 0.12987012987
+      Value: 0.0165454545455
     xb[IEMG]:
-      Value: 0.12987012987
+      Value: 0.0165454545455
     xb[VTI]:
-      Value: 0.12987012987
+      Value: 0.0165454545455
   Constraint: No values

@@ -23,9 +23,6 @@ def cost(x):
 model = AbstractModel()
 # using the notations in A.H. Chen et al., Chap6 Handbook of portfolio construction 
 
-# No. of risky assets
-model.n = Param(within=PositiveIntegers)
-
 # allow short position. Change to NonNegativeINtegers to only allow long position
 model.I = Set()
 model.J = Set()
