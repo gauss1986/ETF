@@ -8,15 +8,15 @@ Problem:
 - Lower bound: -inf
   Upper bound: inf
   Number of objectives: 1
-  Number of constraints: 67
-  Number of variables: 70
+  Number of constraints: 11
+  Number of variables: 31
   Sense: unknown
 # ----------------------------------------------------------
 #   Solver Information
 # ----------------------------------------------------------
 Solver: 
 - Status: ok
-  Message: CBC 2.9.9 optimal, objective 6.43118493935767; 0 nodes, 0 iterations, 0 seconds
+  Message: CBC 2.9.9 optimal, objective -1.33315387249114; 0 nodes, 0 iterations, 0.010999 seconds
   Termination condition: optimal
   Id: 0
 # ----------------------------------------------------------
@@ -27,27 +27,37 @@ Solution:
   number of solutions displayed: 1
 - Gap: None
   Status: optimal
-  Message: CBC 2.9.9 optimal, objective 6.43118493935767; 0 nodes, 0 iterations, 0 seconds
+  Message: CBC 2.9.9 optimal, objective -1.33315387249114; 0 nodes, 0 iterations, 0.010999 seconds
   Objective:
     cost:
-      Value: 6.43118493936
+      Value: -0.573392523619
   Variable:
-    x[3,4]:
-      Value: 1
-    x[6,1]:
-      Value: 1
-    x[6,2]:
-      Value: 1
-    x[6,3]:
-      Value: 1
-    x[6,5]:
-      Value: 1
-    x[9,6]:
-      Value: 1
-    y[3]:
-      Value: 1
-    y[6]:
-      Value: 1
-    y[9]:
-      Value: 1
+    x[C_VUS]:
+      Value: 0.12987012987
+    x[C_XIC]:
+      Value: 0.12987012987
+    x[C_XSH]:
+      Value: 0.12987012987
+    x[C_ZFM]:
+      Value: 0.12987012987
+    x[IEFA]:
+      Value: 0.12987012987
+    x[IEMG]:
+      Value: 0.12987012987
+    x[VTI]:
+      Value: 0.12987012987
+    xb[C_VUS]:
+      Value: 0.12987012987
+    xb[C_XIC]:
+      Value: 0.12987012987
+    xb[C_XSH]:
+      Value: 0.12987012987
+    xb[C_ZFM]:
+      Value: 0.12987012987
+    xb[IEFA]:
+      Value: 0.12987012987
+    xb[IEMG]:
+      Value: 0.12987012987
+    xb[VTI]:
+      Value: 0.12987012987
   Constraint: No values
